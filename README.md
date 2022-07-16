@@ -1,13 +1,17 @@
 # ミケツ
+
 ![](readMe/logo.png)
 
 # 技術スタック
-- Swift5 + VIPER Architecture
+
+- Swift5 + Combine + VIPER Architecture
 - Firebase
 
 # その他
+
 - `GoogleService-Info.plist` はご自分のをお使いください。
-- Firestore の暫定設計（命名規約設計とNoSQL向けのDB設計してない）
+- Firestore の暫定設計（命名規約設計と NoSQL 向けの DB 設計してない）
+
 ```
 Firestore
 ├── StoreMaster: collection
