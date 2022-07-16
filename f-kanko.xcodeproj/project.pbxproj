@@ -41,14 +41,6 @@
 		7BBB57BC2880672C00373412 /* JanCapturePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB57BB2880672C00373412 /* JanCapturePresenter.swift */; };
 		7BBB57BF2880802700373412 /* CameraPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 7BBB57BE2880802700373412 /* CameraPermission */; };
 		7BBB57C12880802700373412 /* NotificationPermission in Frameworks */ = {isa = PBXBuildFile; productRef = 7BBB57C02880802700373412 /* NotificationPermission */; };
-		7BBB57FB288131F100373412 /* MasterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB57F7288131F100373412 /* MasterPresenter.swift */; };
-		7BBB57FC288131F100373412 /* MasterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB57F8288131F100373412 /* MasterRouter.swift */; };
-		7BBB57FD288131F100373412 /* MasterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB57F9288131F100373412 /* MasterViewController.storyboard */; };
-		7BBB57FE288131F100373412 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB57FA288131F100373412 /* MasterViewController.swift */; };
-		7BBB58042881321300373412 /* TransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB58002881321300373412 /* TransactionPresenter.swift */; };
-		7BBB58052881321300373412 /* TransactionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB58012881321300373412 /* TransactionRouter.swift */; };
-		7BBB58062881321300373412 /* TransactionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB58022881321300373412 /* TransactionViewController.storyboard */; };
-		7BBB58072881321300373412 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB58032881321300373412 /* TransactionViewController.swift */; };
 		7BBB582F288270FB00373412 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB582E288270FB00373412 /* GoogleService-Info.plist */; };
 		7BBB58312882769400373412 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB58302882769400373412 /* PaymentInteractor.swift */; };
 		7BBB583328827D1900373412 /* PaymentHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB583228827D1900373412 /* PaymentHistory.swift */; };
@@ -84,14 +76,6 @@
 		7BBB57B72880670A00373412 /* JanCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanCaptureViewController.swift; sourceTree = "<group>"; };
 		7BBB57B92880671F00373412 /* JanCaptureRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanCaptureRouter.swift; sourceTree = "<group>"; };
 		7BBB57BB2880672C00373412 /* JanCapturePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanCapturePresenter.swift; sourceTree = "<group>"; };
-		7BBB57F7288131F100373412 /* MasterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterPresenter.swift; sourceTree = "<group>"; };
-		7BBB57F8288131F100373412 /* MasterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterRouter.swift; sourceTree = "<group>"; };
-		7BBB57F9288131F100373412 /* MasterViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MasterViewController.storyboard; sourceTree = "<group>"; };
-		7BBB57FA288131F100373412 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		7BBB58002881321300373412 /* TransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionPresenter.swift; sourceTree = "<group>"; };
-		7BBB58012881321300373412 /* TransactionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRouter.swift; sourceTree = "<group>"; };
-		7BBB58022881321300373412 /* TransactionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TransactionViewController.storyboard; sourceTree = "<group>"; };
-		7BBB58032881321300373412 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		7BBB582E288270FB00373412 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7BBB58302882769400373412 /* PaymentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
 		7BBB583228827D1900373412 /* PaymentHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistory.swift; sourceTree = "<group>"; };
@@ -209,8 +193,6 @@
 		7BBB575E287F176800373412 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				7BBB57FF2881320100373412 /* Transaction */,
-				7BBB57CC2881281E00373412 /* Master */,
 				7BBB57B6288066EA00373412 /* JanCapture */,
 				7BBB57A12880172A00373412 /* Top */,
 				7BBB5773287F1EB900373412 /* Login */,
@@ -334,28 +316,6 @@
 			path = JanCapture;
 			sourceTree = "<group>";
 		};
-		7BBB57CC2881281E00373412 /* Master */ = {
-			isa = PBXGroup;
-			children = (
-				7BBB57F7288131F100373412 /* MasterPresenter.swift */,
-				7BBB57F8288131F100373412 /* MasterRouter.swift */,
-				7BBB57F9288131F100373412 /* MasterViewController.storyboard */,
-				7BBB57FA288131F100373412 /* MasterViewController.swift */,
-			);
-			path = Master;
-			sourceTree = "<group>";
-		};
-		7BBB57FF2881320100373412 /* Transaction */ = {
-			isa = PBXGroup;
-			children = (
-				7BBB58002881321300373412 /* TransactionPresenter.swift */,
-				7BBB58012881321300373412 /* TransactionRouter.swift */,
-				7BBB58022881321300373412 /* TransactionViewController.storyboard */,
-				7BBB58032881321300373412 /* TransactionViewController.swift */,
-			);
-			path = Transaction;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,14 +392,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BBB58062881321300373412 /* TransactionViewController.storyboard in Resources */,
 				7BBB583D2882993700373412 /* sound.mp3 in Resources */,
 				7BBB5752287F16D600373412 /* LaunchScreen.storyboard in Resources */,
 				7BBB577B287F218400373412 /* LoginViewController.storyboard in Resources */,
 				7BBB574F287F16D600373412 /* Assets.xcassets in Resources */,
 				7BBB57A92880174E00373412 /* TopViewController.storyboard in Resources */,
 				7BB5110A28830C5B00025A2A /* loading.gif in Resources */,
-				7BBB57FD288131F100373412 /* MasterViewController.storyboard in Resources */,
 				7BBB582F288270FB00373412 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,16 +434,11 @@
 				7BBB57B82880670A00373412 /* JanCaptureViewController.swift in Sources */,
 				7BBB5770287F1A3100373412 /* UIColor+Extension.swift in Sources */,
 				7BBB5746287F16D500373412 /* AppDelegate.swift in Sources */,
-				7BBB58072881321300373412 /* TransactionViewController.swift in Sources */,
 				7BBB5777287F1F4A00373412 /* LoginPresenter.swift in Sources */,
 				7BBB583328827D1900373412 /* PaymentHistory.swift in Sources */,
 				7BBB5788287F2FDD00373412 /* AuthInteractor.swift in Sources */,
 				7BBB578A287F308100373412 /* FirebaseRemoteRepository.swift in Sources */,
-				7BBB58042881321300373412 /* TransactionPresenter.swift in Sources */,
-				7BBB57FC288131F100373412 /* MasterRouter.swift in Sources */,
-				7BBB57FE288131F100373412 /* MasterViewController.swift in Sources */,
 				7BBB5775287F1EC900373412 /* LoginViewController.swift in Sources */,
-				7BBB58052881321300373412 /* TransactionRouter.swift in Sources */,
 				7BBB57A0288012ED00373412 /* LoginInfoLocalRepository.swift in Sources */,
 				7BBB57AD288022D300373412 /* TopPresenter.swift in Sources */,
 				7BBB5793287F4B5300373412 /* Logger.swift in Sources */,
@@ -498,7 +451,6 @@
 				7BBB57AF2880230300373412 /* TopRouter.swift in Sources */,
 				7BBB578E287F338900373412 /* AppError.swift in Sources */,
 				7BBB58312882769400373412 /* PaymentInteractor.swift in Sources */,
-				7BBB57FB288131F100373412 /* MasterPresenter.swift in Sources */,
 				7BBB57BC2880672C00373412 /* JanCapturePresenter.swift in Sources */,
 				7BBB576E287F19FB00373412 /* TabBarController.swift in Sources */,
 				7BBB578C287F324D00373412 /* LoginInfo.swift in Sources */,
