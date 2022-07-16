@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB5110A28830C5B00025A2A /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5110928830C5B00025A2A /* loading.gif */; };
 		7BBB5746287F16D500373412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB5745287F16D500373412 /* AppDelegate.swift */; };
 		7BBB574F287F16D600373412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB574E287F16D600373412 /* Assets.xcassets */; };
 		7BBB5752287F16D600373412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB5750287F16D600373412 /* LaunchScreen.storyboard */; };
@@ -52,11 +53,11 @@
 		7BBB58312882769400373412 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB58302882769400373412 /* PaymentInteractor.swift */; };
 		7BBB583328827D1900373412 /* PaymentHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB583228827D1900373412 /* PaymentHistory.swift */; };
 		7BBB58372882848C00373412 /* UserInfoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB58362882848C00373412 /* UserInfoModels.swift */; };
-		7BBB583B2882956E00373412 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB583A2882956E00373412 /* loading.gif */; };
 		7BBB583D2882993700373412 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BBB583C2882993700373412 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BB5110928830C5B00025A2A /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		7BBB5742287F16D500373412 /* f-kanko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "f-kanko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBB5745287F16D500373412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BBB574E287F16D600373412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -95,7 +96,6 @@
 		7BBB58302882769400373412 /* PaymentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
 		7BBB583228827D1900373412 /* PaymentHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHistory.swift; sourceTree = "<group>"; };
 		7BBB58362882848C00373412 /* UserInfoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModels.swift; sourceTree = "<group>"; };
-		7BBB583A2882956E00373412 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loading.gif; path = ../../../../../Downloads/loading.gif; sourceTree = "<group>"; };
 		7BBB583C2882993700373412 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BB5110B28830C7200025A2A /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7BBB583C2882993700373412 /* sound.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		7BBB5739287F16D500373412 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +145,7 @@
 		7BBB5744287F16D500373412 /* f-kanko */ = {
 			isa = PBXGroup;
 			children = (
+				7BB5110B28830C7200025A2A /* Sound */,
 				7BBB5783287F2C6400373412 /* Gif */,
 				7BBB5761287F177800373412 /* Config */,
 				7BBB5760287F177300373412 /* UI */,
@@ -266,8 +275,7 @@
 		7BBB5783287F2C6400373412 /* Gif */ = {
 			isa = PBXGroup;
 			children = (
-				7BBB583C2882993700373412 /* sound.mp3 */,
-				7BBB583A2882956E00373412 /* loading.gif */,
+				7BB5110928830C5B00025A2A /* loading.gif */,
 			);
 			path = Gif;
 			sourceTree = "<group>";
@@ -430,7 +438,7 @@
 				7BBB577B287F218400373412 /* LoginViewController.storyboard in Resources */,
 				7BBB574F287F16D600373412 /* Assets.xcassets in Resources */,
 				7BBB57A92880174E00373412 /* TopViewController.storyboard in Resources */,
-				7BBB583B2882956E00373412 /* loading.gif in Resources */,
+				7BB5110A28830C5B00025A2A /* loading.gif in Resources */,
 				7BBB57FD288131F100373412 /* MasterViewController.storyboard in Resources */,
 				7BBB582F288270FB00373412 /* GoogleService-Info.plist in Resources */,
 			);
